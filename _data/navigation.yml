@@ -7,8 +7,8 @@ main:
   - title: "Bestiario"
     url: /bestiario/
     description: "tst"
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Libros"
+    url: /libros/
   # - title: "Sitemap"
   #   url: /sitemap/
   # - title: "Posts"

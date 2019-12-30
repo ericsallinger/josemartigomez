@@ -18,32 +18,42 @@
 
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    {% if img.url %}
-      <a href=
-        {% if img.url contains "://" %}
-          "{{ img.url }}"
-        {% else %}
-          "{{ img.url | relative_url }}"
-        {% endif %}
-        {% if img.title %}title="{{ img.title }}"{% endif %}
-      >
-        <img src=
+    <div class = "container-gallery">
+      {% if img.url %}
+        <a href=
+          {% if img.url contains "://" %}
+            "{{ img.url }}"
+          {% else %}
+            "{{ img.url | relative_url }}"
+          {% endif %}
+          {% if img.title %}title="{{ img.title }}"{% endif %}
+        >
+          <img class="libros-img" src=
+            {% if img.image_path contains "://" %}
+              "{{ img.image_path }}"
+            {% else %}
+              "{{ img.image_path | relative_url }}"
+            {% endif %}
+            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        </a>
+      {% else %}
+        <img class="libros-img" src=
           {% if img.image_path contains "://" %}
             "{{ img.image_path }}"
           {% else %}
             "{{ img.image_path | relative_url }}"
           {% endif %}
           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-      </a>
-    {% else %}
-      <img src=
-        {% if img.image_path contains "://" %}
-          "{{ img.image_path }}"
-        {% else %}
-          "{{ img.image_path | relative_url }}"
-        {% endif %}
-        alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-    {% endif %}
+      {% endif %}
+
+
+      {% if img.excerpt %}
+        <div class="archive__item-excerpt">
+          {{ img.excerpt | markdownify }}
+        </div>
+      {% endif %}
+
+    </div>
   {% endfor %}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>

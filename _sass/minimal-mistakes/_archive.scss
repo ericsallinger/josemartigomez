@@ -1,6 +1,7 @@
 /* ==========================================================================
    ARCHIVE
    ========================================================================== */
+// contains gallery css
 
 .archive {
   margin-top: 1em;
@@ -71,10 +72,25 @@
     border-bottom: none;
   }
 }
+// gallery items
+.container-gallery{
+  // float: left;
+  max-width: 32%;
+  height: 500px;
+}
+.libros-img{
+  max-height: 75%;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
 
 .archive__item-excerpt {
+  overflow: auto;
   margin-top: 0;
+  max-height: 20%;
+  max-width: 100%;
   font-size: $type-size-6;
+  text-align: left;
 
   & + p {
     text-indent: 0;
