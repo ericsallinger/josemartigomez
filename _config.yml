@@ -15,17 +15,17 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "es-ES"
 title                    : "El Balcón"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "José Martí Gomez"
-description              : "El Blog de José Martí Gomez"
+name                     : "José Martí Goméz"
+description              : "El Blog de José Martí Goméz"
 url                      : "localhost:4000"
-baseurl                  : "/josemartigomez"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+# baseurl                  : "/josemartigomez"
+repository               : "ericsallinger/josemartigomez"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# logo                     : "/assets/images/darZayaMarc.JPG"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -65,7 +65,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -107,10 +107,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "José Martí Goméz"
+  avatar           : "/assets/images/bio-foto.jpg"
+  bio              : "José Martí Goméz es un periodista"
+  # location         : "Somewhere"
   email            :
   links:
     - label: "Email"
@@ -219,7 +219,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

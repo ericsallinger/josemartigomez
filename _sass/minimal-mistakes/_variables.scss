@@ -9,7 +9,7 @@
 $doc-font-size: 16 !default;
 
 /* paragraph indention */
-$paragraph-indent: false !default; // true, false (default)
+$paragraph-indent: false !default;
 $indent-var: 1.3em !default;
 
 /* system typefaces */
@@ -158,4 +158,4 @@ $nav-toggle-height: 2rem !default;
 $navicon-width: 1.5rem !default;
 $navicon-height: 0.25rem !default;
 $global-transition: all 0.2s ease-in-out !default;
-$intro-transition: intro 0.3s both !default;
+$intro-transition: intro 0.4s both !default;
