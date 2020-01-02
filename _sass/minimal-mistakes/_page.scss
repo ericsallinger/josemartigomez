@@ -108,12 +108,14 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: $type-size-6;
+    line-height: 1.4;
+    margin: 0px 0px;
   }
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 $indent-var/2;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -168,16 +170,24 @@ body {
 
   &--overlay {
     position: relative;
+  
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0% 70%;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
+    background-color: rgba(29, 23, 23, 0.527);
+    background-blend-mode: darken;
+    // background-image: 
+    //   linear-gradient(
+    //     rgba(0, 0, 0, 0.5),
+    //     rgba(0, 0, 0, 0.5)
+    //   );
 
     a {
       color: #fff;
@@ -550,4 +560,39 @@ body {
       padding-right: 0;
     }
   }
+}
+
+.bestiario-person{
+  font-weight: bold;
+  padding: 20px 0px;
+
+
+  // &:hover{
+  // color: red;
+  // }
+}
+
+.biography{
+  display: none;
+  background-color: $code-background-color;
+  max-height: 400px;
+  max-width: 500px;
+  position: absolute;
+  border: 1px solid $darker-gray;
+  padding: 5px;
+  overflow:auto;
+}
+.biography-content{
+  // float: left;
+  font-size: $type-size-8;
+  // max-width: 100%;
+  // max-height: 100%;
+  
+}
+.biography-img{
+  float: right;
+  max-width: 33%;
+  padding: 5px 5px;
+  // max-height: 100%;
+  border: 1px solid $darker-gray;
 }
