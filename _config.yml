@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : jose_martigomez
 facebook:
   username               :
   app_id                 :
@@ -99,10 +99,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-154947001-2"
+    anonymize_ip         : false #(default)
 
 
 # Site Author
@@ -121,7 +121,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/Jose_MartiGomez"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
