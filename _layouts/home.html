@@ -1,11 +1,39 @@
 ---
 layout: archive
 ---
-
-<!-- -title: "test" -->
 {{ content }}
+<!-- display a random bestiario on page load -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>var postUrls = [];</script>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% assign sortedPosts = site.posts | sort: 'title' %}
+{% for post in sortedPosts %}
+  {% if post.categories contains 'Bestiario' %}
+    <script>
+      
+        postUrls.push("{{ post.url }}");
+    </script>
+  <ul>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  </ul>
+  {% endif %}
+{% endfor %}
+
+<script>
+  var randBestiario = postUrls[Math.floor(Math.random() * postUrls.length)];
+  var randBest= document.createElement("div");
+  randBest.innerHTML = "<a href="+randBestiario+" >{{ post.title }}</a>";
+  document.getElementById("main").appendChild(randBest);
+
+  console.log(randBestiario);
+
+</script>
+  <!-- <a href="{{ post.url }}">{{ post.title }}</a> -->
+
+
+
+
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
 <!-- 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
