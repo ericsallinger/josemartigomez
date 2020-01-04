@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<div class="sidebar sticky">
+    <h3>Gente Conocidos</h3>
+    {% assign sortedPosts = site.posts | sort: 'title' %}
+    {% for post in sortedPosts %}
+        {% if post.categories contains 'Bestiario' %}
+            <ul>
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+</div>
