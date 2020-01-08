@@ -1,0 +1,25 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    var postUrls = [];
+    var postTitles = [];
+</script>
+
+{% assign sortedPosts = site.posts | sort: 'title' %}
+{% for post in sortedPosts %}
+{% if post.categories contains 'Bestiario' %}
+<script>
+    postUrls.push("{{ post.url }}");
+    postTitles.push("{{ post.title }}");
+</script>
+{% endif %}
+{% endfor %}
+
+<script>
+    var rand = Math.floor(Math.random() * postUrls.length);
+    var randBestiario = postUrls[rand];
+    var randBest = document.createElement("div");
+    randBest.innerHTML = "<em>Bestiario del dia:</em> <a href=" + randBestiario + " >"+postTitles[rand]+"</a> ||";
+    document.querySelector(".bestiarioOfDay").appendChild(randBest);
+
+
+</script>

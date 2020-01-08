@@ -566,7 +566,6 @@ body {
   font-weight: bold;
   padding: 20px 0px;
 
-
   // &:hover{
   // color: red;
   // }
@@ -579,6 +578,8 @@ body {
   max-width: 500px;
   position: absolute;
   border: 1px solid $darker-gray;
+  border-radius: 5px;
+
   padding: 5px;
   overflow:auto;
 }
@@ -595,4 +596,18 @@ body {
   padding: 5px 5px;
   // max-height: 100%;
   border: 1px solid $darker-gray;
+  border-radius: 5px;
 }
+
+/*
+   Home page
+   ========================================================================== */
+
+.home-headerNav{
+  width: 100%;
+  max-height: 200px;
+}
+
+// .bestiarioOfDay{
+//   max-width: 33%;
+// }

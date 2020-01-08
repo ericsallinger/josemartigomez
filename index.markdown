@@ -10,4 +10,14 @@ header:
 show_overlay_excerpt: true
 excerpt: "*punto elevado desde donde es posible, excepcionalmente, divisar un paisaje extenso"
 entries_layout: grid
+random-bestiario: true
 ---
+
+{% if page.random-bestiario %}
+{% include random-bestiario.html %}
+{% endif %}
+
+{% for post in site.categories.Blog limit:1 %}
+<h1>{{post.title}}</h1>
+{{post.content}}
+{% endfor %}

@@ -4,11 +4,20 @@ main:
     # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Blog"
+    url: /blog/
   - title: "Bestiario"
     url: /bestiario/
-    description: "tst"
+    description: "gente que he conocido"
+  - title: "Pildora"
+    url: /pildora/
+    description: "comentarios y reflecciones"
   - title: "Libros"
     url: /libros/
+    description: "libros escritos por o en parte por José Martí Gómez"
+  # - title: ""
+  #   url: /blog/
+
   # - title: "Sitemap"
   #   url: /sitemap/
   # - title: "Posts"
