@@ -177,6 +177,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 70%;
+    // background-attachment: fixed;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
@@ -409,6 +410,14 @@ body {
 /*
    Comments
    ========================================================================== */
+
+.commentbox-container{
+    max-width: 100%;
+};
+.branding{
+  display: none;
+}
+
 
 .page__comments {
   float: left;

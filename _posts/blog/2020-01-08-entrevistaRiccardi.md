@@ -4,6 +4,7 @@ title:  "Andre Riccardi, familia y disgregación social"
 date:   2019-12-28 15:35:46 +0100
 categories: Blog
 classes: wide
+comments: true
 ---
 <!-- jquery for person bios -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -38,3 +39,4 @@ classes: wide
 ​	Es un hecho,  le dije  a Riccardi que ha regresado la necesidad de Dios en tiempos en los que las iglesias tradicionales han entrado en crisis y proliferan las iglesias pentecostales o las sectas, muchas de ellas de espíritu totalitario. Le conté que en Estados Unidos vi una de las nuevas iglesias exhibiendo una gran pancarta en la entrada del templo ofreciendo s los fieles no consuelo espiritual sino la mejor refrigeración y los reclinatorios más cómodos de todas las iglesias de la ciudad (Riccardi soltó uan carcajada) y dijo “es un hecho que nuestros templos suelen ser incómodos  y que las nuevas iglesias o sectas surgidas en los últimos años han hecho un buen proselitismo de mercado pero me pregunto si son más lobbys al servicio del poder que iglesias al servicio del ser humano y en el contexto actual, la unidad de las iglesias cristianas tradicionales es necesaria ya que  su separación legitima  la proliferación de las nuevas religiones”. Cuando nos despedíamos insitió en su mensaje: 
 
 > Mi propuesta, realista, es la de la civilización del convivir porque creo que conviviendo se crea un mestizaje para que los jóvenes se enamoren entre sí y formen una familia, para que los valores de cada uno se compartan junto a las múltiples identidades: usted es católico, pero también es laico, y es español pero también es catalán y europeo. Es el conflicto el que lleva a que emerga una sola identidad.
+
