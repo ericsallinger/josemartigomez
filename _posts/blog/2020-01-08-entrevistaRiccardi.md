@@ -12,7 +12,7 @@ comments: true
     $(document).ready(function(e){
         // e.preventDefault();
         $(".bestiario-person").hover(function(e){
-            $('.biography').css({'top':e.pageY,'right':e.pageX-375});
+            $('.biography').css({'top':e.pageY-150,'right':e.pageX-375});
             console.log(e);
             $(".biography").show("slow");
         },function(){
@@ -24,8 +24,6 @@ comments: true
     <div class = "biography-content">
         <img class="biography-img" src="/assets/images/riccardini.jpg">
     <strong>Andrea Riccardi (Roma, 1950) es un historiador italiano.</strong>
-     Catedrático de Historia Contemporánea en la Universidad de Roma III. Experto en temas de la Iglesia católica. También es autor de varios libros sobre la problemática de la Iglesia en el siglo XX, sobre todo en los países mediterráneos. Como profesor de historia del cristianismo y autor de numerosos libros, ha puesto su empeño en identificar los mecanismos de reproducción del prejuicio racista "moderno" (o postmoderno) y de criticarlos en la raíz.
-     Andrea Riccardi (Roma, 1950) es un historiador italiano.</strong>
      Catedrático de Historia Contemporánea en la Universidad de Roma III. Experto en temas de la Iglesia católica. También es autor de varios libros sobre la problemática de la Iglesia en el siglo XX, sobre todo en los países mediterráneos. Como profesor de historia del cristianismo y autor de numerosos libros, ha puesto su empeño en identificar los mecanismos de reproducción del prejuicio racista "moderno" (o postmoderno) y de criticarlos en la raíz.
     </div>
 </div>

@@ -91,6 +91,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
+  jekyll-sitemap
   minimal-mistakes-jekyll
   tzinfo (~> 1.2)
   tzinfo-data
