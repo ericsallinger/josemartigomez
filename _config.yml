@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : #
 name                     : "José Martí Goméz"
 description              : "El Blog de José Martí Goméz"
-url                      : "localhost:4000"
+url                      : "https://josemartigomez.com" #/localhost:4000
 # baseurl                  : "/josemartigomez"
 repository               : "ericsallinger/josemartigomez"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
