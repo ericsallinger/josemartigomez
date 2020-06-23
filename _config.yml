@@ -294,8 +294,8 @@ defaults:
       type: posts
     values:
       layout: single
-      bestiario_sidebar: true
-      author_profile: true
+      bestiario_sidebar: false
+      author_profile: false
       read_time: true
       comments: # true
       share: true
