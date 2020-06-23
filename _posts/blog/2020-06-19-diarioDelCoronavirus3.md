@@ -1,13 +1,13 @@
 ---
 layout: single
 title:  "Diario del coronavirus: Artículo Tres"
-date:   2020-06-19 15:35:46 +0100
+date:   2020-06-23 15:35:46 +0100
 categories: Blog
 classes: wide
 comments: false
 ---
 
-Desde la facultad de Medicina de la Washignton Univesity en St Louis (Missouri, Estados Unidos) Eric Sallinger me escribe Sobre La Vida en los Tiempos de Coronavirus:
+Desde la facultad de Medicina de la Washington Univesity en St. Louis (Missouri, Estados Unidos) Eric Sallinger me escribe Sobre La Vida en los Tiempos de Coronavirus:
 
 “Es difícil imaginar hasta qué punto la gente se ha visto afectada por el coronavirus en todo el mundo. Lo que es fácil es saber con seguridad que millones de personas han sufrido muchísimo más que yo. Yo no soy sanitario ni tengo contacto con enfermos, no estoy solo en mi casa, aislado de los demás, no me falta nada, tengo comida y todo lo que necesito para estar sano. Soy un estudiante universitario a punto de graduarme en la Washington University en St. Louis, estoy rodeado de amigos, veré pronto a mi familia y tengo todo lo que necesito. Soy afortunado. Y este pensamiento me viene a la mente a menudo, la sensación de que aunque mi vida se haya visto afectada por el coronavirus, las cosas podrían ser mucho peor y doy las gracias por lo que tengo.
 
