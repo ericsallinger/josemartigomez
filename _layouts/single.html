@@ -64,11 +64,9 @@ layout: default
         {% endif %}
       </footer>
 
-      {% if page.comments %}
-      <div class="commentbox-container">
+      {%- if site.commentbox.id -%}
         {%- include commentbox.html -%}
-      </div>
-      {% endif %}
+      {%- endif -%}
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 

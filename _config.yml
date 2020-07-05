@@ -297,6 +297,6 @@ defaults:
       bestiario_sidebar: false
       author_profile: false
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true

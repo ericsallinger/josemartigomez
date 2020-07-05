@@ -5,7 +5,6 @@ date:   2020-05-21 15:35:46 +0100
 categories: Blog
 classes: wide
 comments: false
-bestiario_sidebar: false
 ---
 
 Seguimos aplaudiendo todas las tardes al personal sanitario.
