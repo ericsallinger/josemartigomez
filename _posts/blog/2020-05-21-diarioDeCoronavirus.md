@@ -4,7 +4,6 @@ title:  "Diario del coronavirus"
 date:   2020-05-21 15:35:46 +0100
 categories: Blog
 classes: wide
-comments: false
 ---
 
 Seguimos aplaudiendo todas las tardes al personal sanitario.

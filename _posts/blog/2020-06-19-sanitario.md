@@ -4,7 +4,7 @@ title:  "Un vistazo a la sanidad"
 date:   2020-06-19 15:35:46 +0100
 categories: Blog
 classes: wide
-comments: false
+comments: true
 ---
 
 Durante muchos días  aplaudimos todas las tardes al personal sanitario.

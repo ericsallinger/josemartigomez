@@ -4,7 +4,6 @@ title:  "Andre Riccardi, familia y disgregación social"
 date:   2019-12-28 15:35:46 +0100
 categories: Blog
 classes: wide
-comments: true
 ---
 <!-- jquery for person bios -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

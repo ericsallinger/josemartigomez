@@ -4,7 +4,6 @@ title:  "Diario del coronavirus: Artículo Tres"
 date:   2020-06-23 15:35:46 +0100
 categories: Blog
 classes: wide
-comments: false
 ---
 
 Desde la facultad de Medicina de la Washington Univesity en St. Louis (Missouri, Estados Unidos) Eric Sallinger me escribe Sobre La Vida en los Tiempos de Coronavirus:
