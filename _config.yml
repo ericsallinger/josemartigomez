@@ -124,6 +124,9 @@ author:
     - label: "clifford8@telefonica.net"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:clifford8@telefonica.net
+    - label: "Editado Por: Eric Sallinger"
+      icon: "fas fa-fw fa-link"
+      url: "http://ericsallinger.com/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

@@ -17,13 +17,8 @@ random-bestiario: true
 {% include random-bestiario.html %}
 {% endif %}
 
-<!-- {% for post in site.categories.Blog limit:1 %}
+{% for post in site.categories.Blog limit:1 %}
 <h1>{{post.title}}</h1>
 {{post.content}}
-{% endfor %} -->
-{% for post in site.categories.Bestiario %}
-{% if post.title == "Candel y la pobreza" %}
-<h1>{{post.title}}</h1>
-{{post.content}}
-{% endif %}
 {% endfor %}
+
