@@ -43,7 +43,7 @@ Y a partir de ese momento de la conversación, Hortensia Brusi, conocida como Te
 
 -Hablemos de traidores y leales.
 
--¡Si hubiese visto usted las fotos de los militares que dieron el golpe saludando militarmente a Salvador, cediéndole el paso,  conversando con él relajados!  Pinochet entre ellos, claro. El mayor traidor. Nos lo había recomendado el general Prats. Nos lo definió como un soldado leal y lo avalaba el dato de que en un intento de golpe de estado anterior Pinochet actuó en defensa del gobierno legal. Luego supimos que lo hizo para ganar tiempo, consciente de que aquel primer golpe fallaría, como así fue: el golpe pasó a ser conocido como el tancazo porque al regimiento sublevado sólo se le sumó un tanque. ¡Pobre Prats!
+-¡Si hubiese visto usted las fotos de los militares que dieron el golpe saludando militarmente a Salvador, cediéndole el paso, conversando con él relajados! Pinochet entre ellos, claro. El mayor traidor. Nos lo había recomendado el general Prats. Nos lo definió como un soldado leal y lo avalaba el dato de que en un intento de golpe de estado anterior Pinochet actuó en defensa del gobierno legal. Luego supimos que lo hizo para ganar tiempo, consciente de que aquel primer golpe fallaría, como así fue: el golpe pasó a ser conocido como el tancazo porque al regimiento sublevado sólo se le sumó un tanque. ¡Pobre Prats!
 
 -En México le compró a su esposo dos americanas sport...
 
