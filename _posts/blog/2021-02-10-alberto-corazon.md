@@ -7,7 +7,7 @@ classes: wide
 comments: true
 ---
 
-Alberto Corazón me remitio este texto para mi libro Un país en el diván. Se lo ofrezco a ustedes con tristeza:
+Alberto Corazón me remitió este texto para mi libro Un país en el diván. Se lo ofrezco a ustedes con tristeza:
 
 ---
 
