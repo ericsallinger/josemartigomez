@@ -6,7 +6,7 @@
 .archive {
   // margin-top: 0.5em;
   margin-bottom: 2em;
-  text-indent: 10px;
+  text-indent: $indent-var;
 
   @include breakpoint($large) {
     float: right;
