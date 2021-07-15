@@ -39,9 +39,46 @@ layout: default
 
       <section class="page__content" itemprop="text">
           {% if page.last_modified_at %}
-          <p class="page__date"><strong>{{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong>{{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">
+          {{ page.last_modified_at | date: "%B %d, %Y" }}
+          {{ page.modified | date: "%-d" }}
+          {% assign month = page.modified | date: '%-m' %}
+          {% case month %}
+            {% when '1' %}Enero
+            {% when '2' %}Febrero
+            {% when '3' %}Marzo
+            {% when '4' %}Abril
+            {% when '5' %}Mayo
+            {% when '6' %}Junio
+            {% when '7' %}Julio
+            {% when '8' %}Agosto
+            {% when '9' %}Septiembre
+            {% when '10' %}Octubre
+            {% when '11' %}Noviembre
+            {% when '12' %}Deciembre
+          {% endcase %}
+          {{ page.date | date: "%Y" }}
+          </time></p>
           {% elsif page.date %}
-            <p class="page__date"><strong>{{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+            <p class="page__date" ><strong>{{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">
+              {{ page.date | date: "%-d" }}
+              {% assign month = page.date | date: '%-m' %}
+              {% case month %}
+                {% when '1' %}Enero
+                {% when '2' %}Febrero
+                {% when '3' %}Marzo
+                {% when '4' %}Abril
+                {% when '5' %}Mayo
+                {% when '6' %}Junio
+                {% when '7' %}Julio
+                {% when '8' %}Agosto
+                {% when '9' %}Septiembre
+                {% when '10' %}Octubre
+                {% when '11' %}Noviembre
+                {% when '12' %}Deciembre
+              {% endcase %}
+              {{ page.date | date: "%Y" }}
+            </time></p>
           {% endif %}
           <br>
         {% if page.toc %}

@@ -28,7 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # logo                     : "/assets/images/darZayaMarc.JPG"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 75
 commentbox:
   id: 5671668068384768-proj
 comments:
@@ -231,7 +231,7 @@ sass:
 # permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /bestiario/page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: CEST # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
