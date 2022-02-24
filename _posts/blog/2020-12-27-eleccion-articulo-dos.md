@@ -18,4 +18,4 @@ Parece que el día de la toma de posesión de Biden, el 20 de Enero de 2021, Tru
 Por Eric Sallinger
 
 <br>
-[Pueden leer el primer capítulo aquí]({% post_url 2020-11-02-americaElecciones %})
+[Pueden leer el primer capítulo aquí]({% post_url 2020-11-02-americaElecciones %}) 
