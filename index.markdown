@@ -8,7 +8,7 @@ author_profile: true
 header:
     overlay_image: /assets/images/balcón.jpg
 show_overlay_excerpt: true
-excerpt: "*un punto elevado desde donde es posible, excepcionalmente, divisar un paisaje extenso* <br/>  El Blog de José Martí Gómez "
+excerpt: "*un punto elevado desde donde es posible, excepcionalmente, divisar un paisaje extenso*<br/>el blog de José Martí Gómez "
 entries_layout: grid
 random-bestiario: true
 ---
@@ -18,8 +18,5 @@ random-bestiario: true
 {% endif %}
 
 <a class="twitter-timeline" href="https://twitter.com/Jose_MartiGomez?ref_src=twsrc%5Etfw">Tweets by Jose_MartiGomez</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!-- {% for post in site.categories.Blog limit:1 %}
-<h1>{{post.title}}</h1>
-{{post.content}}
-{% endfor %} -->
+
 

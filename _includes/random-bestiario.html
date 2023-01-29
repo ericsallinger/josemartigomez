@@ -1,25 +1,38 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-    var postUrls = [];
-    var postTitles = [];
+    var bestUrls = [];
+    var bestTitles = [];
+    var blogUrls = [];
+    var blogTitles = [];
 </script>
 
 {% assign sortedPosts = site.posts | sort: 'title' %}
 {% for post in sortedPosts %}
 {% if post.categories contains 'Bestiario' %}
 <script>
-    postUrls.push("{{ post.url }}");
-    postTitles.push("{{ post.title }}");
+    bestUrls.push("{{ post.url }}");
+    bestTitles.push("{{ post.title }}");
+</script>
+{% endif %}
+{% if post.categories contains 'Blog' %}
+<script>
+  blogUrls.push("{{ post.url }}");
+  blogTitles.push("{{ post.title }}");
 </script>
 {% endif %}
 {% endfor %}
 
 <script>
-    var rand = Math.floor(Math.random() * postUrls.length);
-    var randBestiario = postUrls[rand];
-    var randBest = document.createElement("div");
-    randBest.innerHTML = "<em>Bestiario del dia:</em> <a href=" + randBestiario + " >"+postTitles[rand]+"</a> ||";
-    document.querySelector(".bestiarioOfDay").appendChild(randBest);
+    var randBestNum = Math.floor(Math.random() * bestUrls.length);
+    var randBestUrl = bestUrls[randBestNum];
+
+    var randBlogNum = Math.floor(Math.random() * blogUrls.length);
+    var randBlogUrl = bestUrls[randBlogNum];
+
+    var randPosts = document.createElement("div");
+    randPosts.innerHTML = "<em>Bestiario del dia:</em> <a href=" + randBestUrl + " >"+bestTitles[randBestNum]+"</a> ||";
+    randPosts.innerHTML += " <em>Blog del dia:</em> <a href=" + randBlogUrl + " >" + blogTitles[randBestNum] +"</a >";
+    document.querySelector(".bestiarioOfDay").appendChild(randPosts);
 
 
 </script>
