@@ -8,7 +8,7 @@ author_profile: true
 header:
     overlay_image: /assets/images/balcón.jpg
 show_overlay_excerpt: true
-excerpt: "El Blog de José Martí Gómez - un punto elevado desde donde es posible, excepcionalmente, divisar un paisaje extenso"
+excerpt: "un punto elevado desde donde es posible, excepcionalmente, divisar un paisaje extenso <br/>  El Blog de José Martí Gómez "
 entries_layout: grid
 random-bestiario: true
 ---
